@@ -1,0 +1,9 @@
+.copy {
+  float: right;
+  color: rgb(145, 118, 12);
+}
+.copy:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: -webkit-grabbing; cursor: grab;
+}

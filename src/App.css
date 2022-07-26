@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+/* body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M681.1278153880364 233.4536388503885L767.6625711702518 298.66225454473306 832.8711868645964 212.12749876251763 746.336431082381 146.9188830681731z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1335.3980916525716-13.325782305157933L1182.906369496145 48.2848726688064 1397.0087466265359 139.16593985126852z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1024.8938881020892 227.17864000742617L1138.3198679855914 287.62703176433456 1136.359024943629 175.29040912636717z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1007.2605542787145 288.0913976115037L1134.3788426575827 263.38210541936155 1109.6695504654406 136.26381704049322 982.5512620865724 160.97310923263538z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M247.151%2c600.338C278.983%2c599.848%2c308.003%2c583.926%2c325.024%2c557.022C343.417%2c527.95%2c352.262%2c491.1%2c335.139%2c461.262C317.957%2c431.32%2c281.625%2c419.502%2c247.151%2c421.32C215.817%2c422.973%2c189.928%2c442.794%2c173.893%2c469.766C157.433%2c497.453%2c149.253%2c531.393%2c165.014%2c559.484C181.05%2c588.067%2c214.381%2c600.842%2c247.151%2c600.338' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M655.1759243518194 182.47808749762282L754.6169032589484 110.37468186750169 657.3035079112067 64.9967003757848z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1209.201225574161 51.12453619629783L1258.10304592915 132.51083246269684 1339.489342195549 83.60901210770785 1290.5875218405602 2.2227158413088617z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1368.7325158771732-29.395171818081423L1211.2660238410465 12.797847557960523 1410.9255352532152 128.07132021804523z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M971.251%2c578.159C996.832%2c577.546%2c1016.855%2c559.995%2c1031.006%2c538.676C1047.382%2c514.005%2c1064.716%2c484.384%2c1050.872%2c458.207C1036.507%2c431.045%2c1001.877%2c423.193%2c971.251%2c425.685C944.796%2c427.837%2c924.264%2c446.404%2c911.299%2c469.564C898.686%2c492.094%2c893.845%2c519.058%2c906.324%2c541.662C919.185%2c564.958%2c944.649%2c578.796%2c971.251%2c578.159' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M880.645440403836 42.99341179351105L782.9233771187075 9.34500697680118 749.2749723019976 107.06707026192962 846.9970355871261 140.71547507863949z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+} */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
