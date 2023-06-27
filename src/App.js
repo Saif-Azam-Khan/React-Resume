@@ -9,22 +9,21 @@ import "./App.css";
 
 function App() {
   const [section, setSection] = useState("about");
-
+  const [show, setShow]=useState(false)
   return (
     <div className="App">
-      <NavBar showSection={setSection} />
+      <NavBar showSection={setSection} setShow={setShow} show={show}/>
       <div className="container">
       {section === "about" ? (
         <About />
       ) : section === "exp" ? (
         <Experience />
-      ) : section === "contactInfo" ? (
-        <ContactInfo toggle={setSection} />
       ) : section === "skills" ? (
         <Skills />
       ) : null}
       </div>
       <Footer/>
+      <ContactInfo hidden={show} show={show} setShow={setShow}/>
     </div>
   );
 }

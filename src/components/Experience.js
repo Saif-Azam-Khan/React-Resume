@@ -1,47 +1,81 @@
-import React from "react";
+import { useState } from "react";
 import "./Experience.css";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import ListGroup from "react-bootstrap/ListGroup";
+import Row from "react-bootstrap/Row";
+import { work_experience } from "../utils/data";
 
 function Experience() {
+  const [cardShow, setCardShow] = useState(0);
+  const handleClick = () => {
+    if (cardShow < work_experience.length - 1) {
+      setCardShow(cardShow + 1);
+    } else {
+      setCardShow(0);
+    }
+  };
   return (
     <div>
       <h1>WORK EXPERIENCE</h1>
-      <h3>V Group Inc.</h3>
-      <h3>01/2020-03/2020</h3>
-      <h5>Sourcing Associate</h5>
-      <ul>
-        <li>
-          Analyzed job orders to fully understand clients' specific needs and
-          requirements, and update job descriptions to meet client explicit
-          requirements.
-        </li>
-        <li>Identify and source top candidates through resume analysis.</li>
-        <li>
-          Conduct searches to find qualified individuals via websites including
-          Monster, LinkedIn, Indeed, Dice, etc.
-        </li>
-        <li>
-          Edited and reformatted resumes as necessary, adding relevant keywords
-          and skills to increase candidates' match with client positions.
-        </li>
-      </ul>
-      <h3>Java R&D 10/</h3>
-      <h3>10/2020-Pressent</h3>
-      <h5>Software Developer</h5>
-      <ul>
-        <li>
-          Assisting the Development Manager with all aspects of software design
-          and coding.
-        </li>
-        <li>Attending and contributing to company development meetings.</li>
-        <li>Working on minor bug fixes.</li>
-        <li>Responding to requests from the development team.</li>
-        <li>Protects operations by keeping information confidential.</li>
-        <li>
-          Keeping track of working hours of part timers and observing their
-          work.
-        </li>
-        <li>Working hard to reach deadlines.</li>
-      </ul>
+      <br></br>
+      <Row>
+        <Col>
+          <ListGroup >
+            {work_experience.map((item) => {
+              return (
+                <ListGroup.Item
+                  as="li"
+                  key={item.id}
+                  active= {cardShow == item.id}
+                >
+                  {item.company_name} as {item.position}
+                </ListGroup.Item>
+              );
+            })}
+          </ListGroup>
+          <br></br>
+          <Button onClick={handleClick}>
+            {cardShow === work_experience.length - 1 ? "Prev" : "Next"}
+          </Button>
+        </Col>
+        <Col>
+          <div className="carousel">
+            {work_experience
+              .filter((item) => item.id == cardShow)
+              .map((item) => {
+                return (
+                  <Card
+                    key={item.id}
+                    style={{
+                      width: "40rem",
+                      margin: "auto",
+                      textAlign: "left",
+                    }}
+                  >
+                    <Card.Body>
+                      <Card.Title>{item.company_name}</Card.Title>
+                      <h3>
+                        {item.date_of_joining} - {item.end_date}
+                      </h3>
+                      <h5>{item.position}</h5>
+                      <ul>
+                        {item.responsibilities.map((e) => {
+                          return <li key={e}>{e}</li>;
+                        })}
+                      </ul>
+                      {item.environment !== undefined ? (
+                        <p>Environment: {item.environment}</p>
+                      ) : null}
+                    </Card.Body>
+                  </Card>
+                );
+              })}
+          </div>
+        </Col>
+      </Row>
+      <br></br>
     </div>
   );
 }
