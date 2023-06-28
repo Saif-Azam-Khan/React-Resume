@@ -2,8 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
-function NavBar({ showSection, setShow, show }) {
+import Form from "react-bootstrap/Form";
+function NavBar({ showSection, setShow, show, handleThemeChange }) {
   return (
     <div>
       <Navbar bg="light" expand="lg">
@@ -20,13 +20,16 @@ function NavBar({ showSection, setShow, show }) {
               <Nav.Link href="#experience" onClick={() => showSection("exp")}>
                 Experience
               </Nav.Link>
-              <Nav.Link
-                onClick={() => setShow(!show)}
-              >
-                Contact Info
-              </Nav.Link>
+              <Nav.Link onClick={() => setShow(!show)}>Contact Info</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Form.Check // prettier-ignore
+            type="switch"
+            id="custom-switch"
+            label="Change theme"
+            style={{ marginLeft: "auto" }}
+            onClick={()=>handleThemeChange()}
+          />
         </Container>
       </Navbar>
     </div>
