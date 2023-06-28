@@ -9,10 +9,16 @@ import "./App.css";
 
 function App() {
   const [section, setSection] = useState("about");
+  const [theme, setTheme]=useState(true)
   const [show, setShow]=useState(false)
+ const  handleThemeChange=()=>{
+  setTheme(!theme)
+  console.log(theme);
+  
+ }
   return (
     <div className="App">
-      <NavBar showSection={setSection} setShow={setShow} show={show}/>
+      <NavBar showSection={setSection} setShow={setShow} show={show} handleThemeChange={handleThemeChange}/>
       <div className="container">
       {section === "about" ? (
         <About />
