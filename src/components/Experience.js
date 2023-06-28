@@ -9,11 +9,21 @@ import { work_experience } from "../utils/data";
 
 function Experience() {
   const [cardShow, setCardShow] = useState(0);
+  const [animate, setAnimate] = useState("");
+
   const handleClick = () => {
     if (cardShow < work_experience.length - 1) {
-      setCardShow(cardShow + 1);
+      setAnimate("animate");
+      setTimeout(() => {
+        setAnimate("revanimate");
+        setCardShow(cardShow + 1);
+      }, 610);
     } else {
-      setCardShow(0);
+      setAnimate("animate");
+      setTimeout(() => {
+        setAnimate("revanimate");
+        setCardShow(0);
+      }, 610);
     }
   };
   return (
@@ -22,13 +32,13 @@ function Experience() {
       <br></br>
       <Row>
         <Col>
-          <ListGroup >
+          <ListGroup>
             {work_experience.map((item) => {
               return (
                 <ListGroup.Item
                   as="li"
                   key={item.id}
-                  active= {cardShow == item.id}
+                  active={cardShow == item.id}
                 >
                   {item.company_name} as {item.position}
                 </ListGroup.Item>
@@ -41,7 +51,7 @@ function Experience() {
           </Button>
         </Col>
         <Col>
-          <div className="carousel">
+          <div className={animate}>
             {work_experience
               .filter((item) => item.id == cardShow)
               .map((item) => {
