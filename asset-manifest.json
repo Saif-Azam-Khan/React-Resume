@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Resume/static/css/main.311bba5d.css",
+    "main.js": "/React-Resume/static/js/main.9682efdd.js",
+    "static/media/cyclist.gif": "/React-Resume/static/media/cyclist.4753aaf6ec2bb82e0a6f.gif",
+    "static/media/Redux-icon.png": "/React-Resume/static/media/Redux-icon.1b4bb5fceb01b19da59d.png",
+    "static/media/React-icon.png": "/React-Resume/static/media/React-icon.81ed438b18e24116794d.png",
+    "static/media/footer_bg.png": "/React-Resume/static/media/footer_bg.ffbbddebde8013749861.png",
+    "static/media/volks.gif": "/React-Resume/static/media/volks.96f73df7ebc5b85c7bee.gif",
+    "static/media/css-icon.png": "/React-Resume/static/media/css-icon.5227db3affe64f13f0fa.png",
+    "static/media/Node-icon.png": "/React-Resume/static/media/Node-icon.613f484d059c56fe8b69.png",
+    "static/media/Python-icon.png": "/React-Resume/static/media/Python-icon.448fb2a83595fa5c5c8a.png",
+    "static/media/html-icon.png": "/React-Resume/static/media/html-icon.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/JavaScript-icon.png": "/React-Resume/static/media/JavaScript-icon.e9e5ff428f2ee646e08a.png",
+    "index.html": "/React-Resume/index.html",
+    "main.311bba5d.css.map": "/React-Resume/static/css/main.311bba5d.css.map",
+    "main.9682efdd.js.map": "/React-Resume/static/js/main.9682efdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.311bba5d.css",
+    "static/js/main.9682efdd.js"
+  ]
+}
