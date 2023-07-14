@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Resume/static/css/main.311bba5d.css",
+    "main.css": "/React-Resume/static/css/main.446e2e04.css",
     "main.js": "/React-Resume/static/js/main.a5f71663.js",
     "static/media/cyclist.gif": "/React-Resume/static/media/cyclist.4753aaf6ec2bb82e0a6f.gif",
     "static/media/Redux-icon.png": "/React-Resume/static/media/Redux-icon.1b4bb5fceb01b19da59d.png",
@@ -13,11 +13,11 @@
     "static/media/html-icon.png": "/React-Resume/static/media/html-icon.ff3cf75e3b7cbb4ea77c.png",
     "static/media/JavaScript-icon.png": "/React-Resume/static/media/JavaScript-icon.e9e5ff428f2ee646e08a.png",
     "index.html": "/React-Resume/index.html",
-    "main.311bba5d.css.map": "/React-Resume/static/css/main.311bba5d.css.map",
+    "main.446e2e04.css.map": "/React-Resume/static/css/main.446e2e04.css.map",
     "main.a5f71663.js.map": "/React-Resume/static/js/main.a5f71663.js.map"
   },
   "entrypoints": [
-    "static/css/main.311bba5d.css",
+    "static/css/main.446e2e04.css",
     "static/js/main.a5f71663.js"
   ]
 }
